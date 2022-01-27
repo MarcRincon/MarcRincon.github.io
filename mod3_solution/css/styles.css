@@ -1,0 +1,98 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h2 {
+
+    text-align: center;
+    border: 1px solid #000000;
+    color: white;
+    float: right;
+    padding: 5px;
+}
+.div-menus {
+    text-align: center;
+    display:inline-block; 
+    height:fit-content; 
+    background-color: rgb(119, 0, 20);
+    
+ }
+
+ a {
+     color: white;
+ }
+
+ .menuContent {
+     align-content: center;
+     width: auto;
+     padding: 5%;
+ }
+ .div-chicken {
+    background-color: rgb(238, 84, 84); 
+ }
+ .div-beef {
+    background-color: rgb(43, 95, 236); 
+ }
+ .div-sushi {
+    background-color: rgb(105, 21, 126); 
+ }
+p {
+    color: white;
+    padding: 5%;
+    padding-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ body { 
+    margin: 0px; 
+    padding:0px; 
+    background-color: black;
+}
+img {
+    width:70%;
+    height: fit-content;
+    padding-bottom: 5%;
+}
+
+li {
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .div-menus {
+        text-align: center;
+        display:inline-block; 
+        height:fit-content; 
+        width: 45%; 
+        background-color: rgb(119, 0, 20);
+     }
+
+     .div-mobile {
+         margin-top: 10px;
+        width: 90%; 
+     }
+     .menuContent {
+        align-content: center;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .div-menus {
+        text-align: center;
+        display:inline-block; 
+        height:fit-content; 
+        width: fit-content; 
+        margin: 10px;
+        background-color: rgb(119, 0, 20);
+     }
+
+     .menuContent {
+        align-content: center;
+        width: auto;
+    }
+    
+}
+ 
+ 
